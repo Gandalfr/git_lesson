@@ -17,3 +17,14 @@
 ## 使用SSH进行验证
 >git使用https协议，每次pull, push都要输入密码，相当的烦。使用git协议，然后使用ssh密钥。这样可以省去每次都输密码。
 
+[参考文档](http://blog.csdn.net/love_fdu_llp/article/details/38752365)
+
+### 使用SSH进行连接
+
+1. 使用命令`git remote -v` 查看当前连接方式是http还是ssh的
+2. 在客户端生成SSH，之后在Github上设置里设置一下(参考 参考文档 or 参考文档-韩云涛写)
+3. 这时客户端clone项目时可以选择使用SSH的地址(Clone or Download -> Use SSH ->Copy ssh_path)
+4. 如果本地的代码已经是 http的，可以使用`git remote set-url origin git@github.com:someaccount/someproject.git`进行修改
+5. 结束
+
+
