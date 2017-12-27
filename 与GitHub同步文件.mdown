@@ -13,3 +13,7 @@
 5. git push 提交到远程库
     - git push -u origin master 提交到哪个节点下
     - git push -u origin master  这个刚开始不能使用，在进行了一次push后可以找到origin master了
+
+## 使用SSH进行验证
+>git使用https协议，每次pull, push都要输入密码，相当的烦。使用git协议，然后使用ssh密钥。这样可以省去每次都输密码。
+
