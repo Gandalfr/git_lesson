@@ -1,0 +1,15 @@
+# 与GitHub同步文件
+
+## 通过Git在GitHub上同步文件
+[参考文档-韩云涛写](http://blog.csdn.net/pql925/article/details/72772660)  
+[参考文档2](https://www.cnblogs.com/babywin/p/6073124.html)
+
+### 使用参考文档2进行文件同步
+
+1. 在Git上创建项目
+2. 本地使用命令clone项目
+3. git add . 添加文件到本地库
+4. git commit -m "add" 提交到本地库
+5. git push 提交到远程库
+    - git push -u origin master 提交到哪个节点下
+    - git push -u origin master  这个刚开始不能使用，在进行了一次push后可以找到origin master了
